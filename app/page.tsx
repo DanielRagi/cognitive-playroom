@@ -50,17 +50,17 @@ export default function Home() {
             <p className="text-xl md:text-2xl mb-8 font-light">
               A video game designed to stimulate cognition in people with early-stage Alzheimer&apos;s disease.
             </p>
-            <div>
+            <div className="flex flex-wrap gap-6">
               <Link
                 href="/play"
-                className="inline-block bg-[#d9d9d9] text-[#0d2425] font-bold px-8 py-3 rounded-full mb-4 hover:opacity-90 transition-opacity"
+                className="whitespace-nowrap bg-[#d9d9d9] text-[#0d2425] font-bold px-8 py-3 rounded-full hover:opacity-90 transition-opacity"
               >
                 PLAY DEMO
               </Link>
-              <div className="space-y-1 mt-2 font-black">
+              <div className="space-y-1 font-black">
                 <p>
                   <Link href="/research" className="hover:underline">
-                    &gt; View research publication
+                    &gt; View research paper
                   </Link>
                 </p>
                 <p>
