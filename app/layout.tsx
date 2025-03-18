@@ -13,7 +13,10 @@ const roboto = Roboto({
 
 export const metadata: Metadata = {
   title: "Cognitive Playroom",
-  description: "A video game designed to stimulate cognition in people with early-stage Alzheimer's disease."
+  description: "A video game designed to stimulate cognition in people with early-stage Alzheimer's disease.",
+  icons: {
+    icon: "/favicon.png"
+  }
 }
 
 export default function RootLayout({
