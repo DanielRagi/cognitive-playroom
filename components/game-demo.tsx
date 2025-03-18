@@ -48,7 +48,7 @@ export function GameDemo() {
         </div>
 
         <div className="mt-8 text-center">
-          <Link href="/research" className="font-black hover:underline">
+          <Link target="_blank" href="https://doi.org/10.54941/ahfe1004501" className="font-black hover:underline">
             &gt; View full research publication
           </Link>
         </div>

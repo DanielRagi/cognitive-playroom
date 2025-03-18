@@ -7,7 +7,7 @@ export function Footer() {
         Developed by: <span className="font-bold">Daniel Ramirez</span>
       </p>
       <p>
-        <Link href="https://www.danielramirez.pro/" className="hover:underline text-sm opacity-80">
+        <Link href="https://www.danielramirez.pro/" target="_blank" className="hover:underline text-sm opacity-80">
           https://www.danielramirez.pro/
         </Link>
       </p>

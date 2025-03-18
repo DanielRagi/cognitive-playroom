@@ -18,7 +18,7 @@ export function AboutContent() {
 
         <div className="mb-10 bg-[#d9d9d9] overflow-hidden">
           <Image
-            src="/placeholder.svg?height=400&width=1000"
+            src="/blog-img.png?placeholder.svg?height=400&width=1000"
             alt="Cognitive game interface showing pattern matching exercise"
             width={1000}
             height={400}
@@ -60,7 +60,7 @@ export function AboutContent() {
           </p>
           <p className="font-light mb-4">
             You can visit the research paper by clicking{" "}
-            <Link href="/research" className="font-black hover:underline">
+            <Link target="_blank" href="https://doi.org/10.54941/ahfe1004501" className="font-black hover:underline">
               here
             </Link>
             .
