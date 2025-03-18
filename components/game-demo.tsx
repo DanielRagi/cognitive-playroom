@@ -8,7 +8,7 @@ export function GameDemo() {
 
   return (
     <main className="container mx-auto px-4 py-8 flex-1 flex flex-col items-center justify-center">
-      <div className="max-w-4xl w-full">
+      <div className="max-w-5xl w-full">
         <h1 className="text-4xl md:text-5xl font-black mb-6 text-center">Play Demo</h1>
         <div className="flex flex-col items-center justify-center">
           <p className="text-xl font-light text-center mb-8">
@@ -18,7 +18,10 @@ export function GameDemo() {
         </div>
 
         <div className="bg-[#0a1d1e] rounded-lg p-4 mb-8">
-          TODO
+          <iframe
+            src="/unity-v4nobd/index.html"
+            className="w-full h-[700px] border-none"
+          />
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
