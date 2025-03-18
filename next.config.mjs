@@ -21,7 +21,7 @@ const nextConfig = {
     parallelServerBuildTraces: true,
     parallelServerCompiles: true,
   },
-  basePath: "/proyecto",
+  basePath: "/cognitive-playroom",
 }
 
 mergeConfig(nextConfig, userConfig)

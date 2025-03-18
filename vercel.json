@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/cognitive-playroom",
+      "permanent": true
+    }
+  ]
+}
