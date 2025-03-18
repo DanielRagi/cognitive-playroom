@@ -25,10 +25,10 @@ export function GameDemo() {
           <div className="bg-[#0a1d1e] rounded-lg p-6">
             <h2 className="text-xl font-black mb-4">How to Play</h2>
             <ul className="space-y-2 font-light">
-              <li>• Follow the pattern shown on screen</li>
-              <li>• Click the tiles in the correct sequence</li>
-              <li>• Complete as many patterns as possible</li>
+              <li>• Follow the instructions shown on screen</li>
+              <li>• Complete as many challenges as possible</li>
               <li>• Difficulty increases with each level</li>
+              <li>• This is a demo, no data is stored.</li>
             </ul>
           </div>
 
@@ -37,9 +37,9 @@ export function GameDemo() {
             <p className="font-light mb-4">This game helps improve:</p>
             <ul className="space-y-2 font-light">
               <li>• Short-term memory</li>
-              <li>• Pattern recognition</li>
-              <li>• Cognitive processing speed</li>
               <li>• Attention and focus</li>
+              <li>• Executive function</li>
+              <li>• Problem solving</li>
             </ul>
           </div>
         </div>

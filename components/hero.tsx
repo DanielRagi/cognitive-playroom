@@ -22,12 +22,12 @@ export function Hero() {
             </Link>
             <div className="space-y-1 font-black">
               <p>
-                <Link href="/research" className="hover:underline">
+                <Link target="_blank" href="https://doi.org/10.54941/ahfe1004501" className="hover:underline">
                   &gt; View research publication
                 </Link>
               </p>
               <p>
-                <Link href="/info" className="hover:underline">
+                <Link href="/about" className="hover:underline">
                   &gt; Aditional information
                 </Link>
               </p>

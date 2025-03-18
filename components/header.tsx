@@ -23,7 +23,7 @@ export function Header() {
             </Link>
           </li>
           <li>
-            <Link href="/research" className="hover:opacity-80 transition-opacity">
+            <Link target="_blank" href="https://doi.org/10.54941/ahfe1004501" className="hover:opacity-80 transition-opacity">
               Research
             </Link>
           </li>
